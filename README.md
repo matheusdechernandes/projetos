@@ -1,11 +1,8 @@
 # 🛒 Sistema de Desconto Progressivo
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python\&logoColor=white)
-
 ![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?logo=github)
-
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
-
 ![Desconto](https://img.shields.io/badge/Projeto-Desconto%20Progressivo-orange)
 
 ## 📖 Sobre o projeto
@@ -84,29 +81,22 @@ Durante o desenvolvimento do programa foram utilizados conceitos básicos da lin
     title="Python"
     height="40"
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+  /> <img
+        alt="VsCode"
+        title="VsCode"
+        height="40"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" 
+  />  <img
+        alt="Git"
+        title="Git"
+        height="40"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"          
+  />  <img
+        alt="Git"
+        title="Git"
+        height="40"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
   />
-
-<img
- alt="VS Code"
- title="VS Code"
- height="40"
- src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
-/>
-
-<img
- alt="Git"
- title="Git"
- height="40"
- src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
-/>
-
-<img
- alt="GitHub"
- title="GitHub"
- height="40"
- src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-/>
-
 </div>
 
 ## ▶️ Como executar
@@ -169,15 +159,6 @@ Valor informado: R$ 400,00
 Desconto: 15%
 Valor do desconto: R$ 60,00
 Valor final: R$ 340,00
-```
-
-## 📂 Estrutura do projeto
-
-```text
-MatheusHernandes_Ag6_DS_I/
-│
-├── app.py
-└── README.md
 ```
 
 ## 👤 Autor
