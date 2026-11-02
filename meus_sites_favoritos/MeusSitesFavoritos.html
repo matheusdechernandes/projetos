@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!-- Instrução DOCTYPE: informa ao navegador que a página usa HTML5 -->
+<html lang="pt-BR">
+<!-- Tag html: delimita toda a página. O atributo lang define o idioma (português do Brasil) -->
+
+<head>
+    <!-- Tag head: cabeçalho da página, com informações que o usuário não vê no corpo -->
+    <meta charset="UTF-8">
+    <!-- Meta charset: codificação UTF-8, para exibir acentos e caracteres especiais corretamente -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta viewport: ajusta a largura da página à tela do dispositivo (celular, tablet, computador) -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Meta X-UA-Compatible: força navegadores antigos (Internet Explorer) a usar a versão mais recente -->
+
+    <title>Meus sites favoritos</title>
+    <!-- Tag title: texto que aparece na aba do navegador -->
+
+    <style>
+        /* Estilo geral da página */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f4f8;
+            color: #1f2937;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Título principal do corpo da página */
+        h1.titulo-pagina {
+            color: #1d4ed8;
+            border-bottom: 3px solid #1d4ed8;
+            display: inline-block;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* Subtítulos */
+        h2 {
+            color: #1d4ed8;
+        }
+
+        /* Cada "cartão" de site */
+        .site {
+            background-color: #ffffff;
+            max-width: 420px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Nome de cada site (h1 dentro do cartão) */
+        .site h1 {
+            font-size: 1.6em;
+            margin: 0 0 15px 0;
+        }
+
+        /* Figura (imagem + legenda) */
+        .site figure {
+            margin: 0 0 10px 0;
+        }
+
+        /* Imagem de cada site */
+        .site img {
+            width: 128px;
+            height: 128px;
+            object-fit: contain;
+        }
+
+        /* Legenda da imagem */
+        .site figcaption {
+            font-size: 0.85em;
+            color: #6b7280;
+            margin-top: 6px;
+        }
+
+        /* Links */
+        a {
+            color: #1d4ed8;
+            text-decoration: none;
+            word-break: break-all;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Rodapé */
+        footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #6b7280;
+        }
+    </style>
+    <!-- Tag style: regras de estilo (cores, espaçamentos, fontes) para deixar a página mais bonita -->
+</head>
+
+<body>
+    <!-- Tag body: corpo da página, tudo o que o usuário vê na janela do navegador -->
+
+    <h1 class="titulo-pagina">Meus sites favoritos: Matheus Hernandes</h1>
+    <!-- Tag h1: título principal do corpo da página -->
+
+    <h2>Apresentação</h2>
+    <!-- Tag h2: subtítulo, de importância menor que o h1 -->
+
+    <p>
+        Esta página reúne cinco sites que eu mais gosto de usar.<br>
+        <!-- Tag br: quebra de linha (não precisa de fechamento) -->
+        Abaixo de cada imagem está o link para acessar o site.
+    </p>
+    <!-- Tag p: parágrafo de texto -->
+
+    <!-- ===================== SITE 1: YouTube ===================== -->
+    <div class="site">
+        <h1>YouTube</h1>
+        <!-- Nome do site ACIMA da imagem, usando a tag h1 -->
+
+        <figure>
+            <!-- Tag figure: agrupa a imagem e a sua legenda -->
+            <a href="https://www.youtube.com" target="_blank">
+                <!-- Link opcional na imagem. target="_blank" abre o site em uma nova aba -->
+                <img src="https://www.google.com/s2/favicons?domain=youtube.com&sz=128" alt="Logotipo do YouTube">
+                <!-- Tag img: src é o endereço da imagem, alt é o texto exibido se a imagem não carregar -->
+            </a>
+            <figcaption>Logotipo do YouTube</figcaption>
+            <!-- Tag figcaption: legenda da imagem -->
+        </figure>
+
+        <p>Link: <a href="https://www.youtube.com" target="_blank">https://www.youtube.com</a></p>
+        <!-- Link do site ABAIXO da imagem, usando a tag a com o atributo href -->
+    </div>
+
+    <!-- ===================== SITE 2: Google ===================== -->
+    <div class="site">
+        <h1>Google</h1>
+
+        <figure>
+            <a href="https://www.google.com" target="_blank">
+                <img src="https://www.google.com/s2/favicons?domain=google.com&sz=128" alt="Logotipo do Google">
+            </a>
+            <figcaption>Logotipo do Google</figcaption>
+        </figure>
+
+        <p>Link: <a href="https://www.google.com" target="_blank">https://www.google.com</a></p>
+    </div>
+
+    <!-- ===================== SITE 3: GitHub ===================== -->
+    <div class="site">
+        <h1>GitHub</h1>
+
+        <figure>
+            <a href="https://github.com" target="_blank">
+                <img src="https://www.google.com/s2/favicons?domain=github.com&sz=128" alt="Logotipo do GitHub">
+            </a>
+            <figcaption>Logotipo do GitHub</figcaption>
+        </figure>
+
+        <p>Link: <a href="https://github.com" target="_blank">https://github.com</a></p>
+    </div>
+
+    <!-- ===================== SITE 4: Instagram ===================== -->
+    <div class="site">
+        <h1>Instagram</h1>
+
+        <figure>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="https://www.google.com/s2/favicons?domain=instagram.com&sz=128" alt="Logotipo do Instagram">
+            </a>
+            <figcaption>Logotipo do Instagram</figcaption>
+        </figure>
+
+        <p>Link: <a href="https://www.instagram.com" target="_blank">https://www.instagram.com</a></p>
+    </div>
+
+    <!-- ===================== SITE 5: Claude ===================== -->
+    <div class="site">
+        <h1>Claude</h1>
+
+        <figure>
+            <a href="https://claude.ai" target="_blank">
+                <img src="https://www.google.com/s2/favicons?domain=claude.ai&sz=128" alt="Logotipo do Claude">
+            </a>
+            <figcaption>Logotipo do Claude</figcaption>
+        </figure>
+
+        <p>Link: <a href="https://claude.ai" target="_blank">https://claude.ai</a></p>
+    </div>
+
+    <!-- ===================== FINAL DA PÁGINA ===================== -->
+
+    <h2>Quer pesquisar outros sites?</h2>
+
+    <p>
+        <a href="https://www.google.com" target="_self">Pesquisar no Google (abre na mesma aba)</a><br>
+        <!-- target="_self": o link abre na mesma aba da janela -->
+        <a href="https://www.google.com" target="_blank">Pesquisar no Google (abre em nova aba)</a>
+        <!-- target="_blank": o link abre em uma nova aba -->
+    </p>
+
+    <!-- Vídeo desativado com comentário (exemplo do uso de comentário para "desligar" uma tag).
+         Para usar, coloque o arquivo meuVideo.mp4 na mesma pasta do HTML e remova as marcas de comentário.
+    <video controls>
+        <source src="meuVideo.mp4" type="video/mp4">
+    </video>
+    -->
+
+    <footer>
+        <p>Página criada por Matheus Hernandes - Atividade da Agenda 12</p>
+    </footer>
+
+</body>
+
+</html>
